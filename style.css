@@ -1,0 +1,160 @@
+div {
+    margin: 0.5px;
+}
+
+
+#container {
+    border-radius: 20px;
+    height: 900px;
+    width: 850px;
+    margin-top: 20px;
+    padding: 0.5rem;
+    background:no-repeat ;
+    box-shadow: 0px 0px 35px 17px rgb(67, 128, 207);  
+    background-image: url(ocean.png);
+    
+    background-size: cover;
+    
+
+
+}
+
+        #logo{
+            border-radius: 30px;
+            width: auto;
+            text-align: center;
+            padding: 2rem;
+            background: no-repeat;
+            box-shadow: 0px 0px 3px 3px rgba(219, 198, 9, 0.411);    
+            background-image: url(piasek.png);
+            background-size: 100%;
+            
+        }
+
+        #nav {
+            font-size: 50px;
+            font-family: Omegle; 
+            text-align:center;  
+            color: rgb(255, 255, 255);
+            position: center;
+            padding-top: 23px;
+            padding-right: 25px;
+            width: auto;
+            text-shadow: 2px 2px 10px rgb(161, 175, 182);
+        }
+        
+        .mode {	
+            font-family: Omegle; 
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-right: 15px;
+            justify-content: center;
+            text-align:center;
+            font-size: 60px;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 10px rgb(255, 255, 255);  
+        }
+        
+        
+        .mode2 {
+            font-size: 50px;	
+            text-align:center;
+            color: rgb(183, 208, 255);
+            position: center;
+            padding-top: px;
+            padding-right: 25px;
+            width: auto;
+            text-shadow: 2px 2px 10px rgb(37, 115, 129);
+        }
+        
+        .mode3 {	
+            font-family: Omegle; 
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            text-align: center;
+            font-size: 70px;
+            color:rgb(255, 164, 44);
+            text-shadow: 1px 2px rgb(148, 71, 35);
+        }
+
+        .mode4 {
+            padding-top: -20px;	
+            font-family: Omegle; 
+            justify-content: center;
+            text-align:center;
+            font-size: 60px;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 10px rgb(255, 255, 255);  
+        }
+        
+        body {
+            animation: fadi ease 5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            min-height: auto;
+            background-color:rgba(0, 0, 0, 0.972);
+            background-image:url(rafa.png);
+            background: no-repeat;
+        }	
+          
+        
+        @font-face {
+            font-family: Omegle;
+            src: url(fonts/OMEGLE.ttf);
+        }
+        
+        @font-face {  
+            font-family: Aquat;
+            src: url(fonts/Aquatico-Regular.otf);
+        }
+
+        @font-face {  
+    	    font-family: Fool;
+		    src: url(fonts/foolish.ttf);
+	    }
+        
+        
+@keyframes fadi {
+    0% {
+        opacity: 0; 
+        transform: rotateX(-10deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(0);
+     }
+}
+ 
+
+#fade div {
+-webkit-animation: fade 3s;
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 300px;
+    height: 25px;
+    border-radius:7px 7px 7px 7px;
+    box-shadow: 2px 2px 4px 0px #8c00ff;
+    transition: all 0.5s linear;
+    
+
+}
+
+audio:hover {
+    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    transform: scale(1.05);
+}   
+
+#audiooo {
+  
+  margin-top: 20px;
+  margin-right: 175px;
+}
